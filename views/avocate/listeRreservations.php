@@ -62,8 +62,8 @@ require("./header.php");
                 jane.cooper@example.com
             </td>
             <td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                <a href="#" class="ml-2 text-red-600 hover:text-red-900">Delete</a>
+                <a href="#" class="text-indigo-600 hover:text-indigo-900">confirmé</a>
+                <a href="#" class="ml-2 text-red-600 hover:text-red-900">annule</a>
             </td>
         </tr>
 
@@ -101,8 +101,8 @@ require("./header.php");
                 jane.cooper@example.com
             </td>
             <td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                <a href="#" class="ml-2 text-red-600 hover:text-red-900">Delete</a>
+                <a href="#" class="text-indigo-600 hover:text-indigo-900">confirmé</a>
+                <a href="#" class="ml-2 text-red-600 hover:text-red-900">annule</a>
             </td>
         </tr>
 
@@ -140,8 +140,8 @@ require("./header.php");
                 jane.cooper@example.com
             </td>
             <td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                <a href="#" class="ml-2 text-red-600 hover:text-red-900">Delete</a>
+                <a href="#" class="text-indigo-600 hover:text-indigo-900">confirmé</a>
+                <a href="#" class="ml-2 text-red-600 hover:text-red-900">annule</a>
             </td>
         </tr>
 
@@ -179,8 +179,8 @@ require("./header.php");
                 jane.cooper@example.com
             </td>
             <td class="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                <a href="#" class="ml-2 text-red-600 hover:text-red-900">Delete</a>
+                <a href="#" class="text-indigo-600 hover:text-indigo-900">confirmé</a>
+                <a href="#" class="ml-2 text-red-600 hover:text-red-900">annule</a>
             </td>
         </tr>
 

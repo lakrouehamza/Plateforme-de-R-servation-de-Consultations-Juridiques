@@ -11,7 +11,7 @@
 
 <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
     <div class="flex-1 flex justify-between items-center">
-<img src="./../../assets/img/logo.png" alt="image de logo " class="w-[100px] bg-blue-500 rounded-[50px]" />
+<img src="./../../assets/img/logo.png" alt="image de logo " class="w-[100px] bg-[#D3CBC8] rounded-[50px]" />
     </div>
 
     <label for="menu-toggle" class="pointer-cursor md:hidden block">
@@ -26,10 +26,9 @@
     <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
             <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                <li><a class="md:p-4 py-3 px-0 block" href="home.php">bout Me</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="home.php">About Me</a></li>
                 <li><a class="md:p-4 py-3 px-0 block" href="profile.php">profile</a></li>
-                <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
-                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact Us</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="listeRreservations.php">Rreservations</a></li>
             </ul>
         </nav>
     </div>
