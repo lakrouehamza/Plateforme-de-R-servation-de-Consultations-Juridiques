@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>page home</title>
     <script src="https://cdn.tailwindcss.com"> </script>
 </head>
 <body>
@@ -11,7 +11,7 @@
 
 <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
     <div class="flex-1 flex justify-between items-center">
-        <a href="#" class="text-xl">Company</a>
+    <img src="./../../assets/img/logo.png" alt="image de logo " class="w-[100px] bg-blue-500 rounded-[50px]" />
     </div>
 
     <label for="menu-toggle" class="pointer-cursor md:hidden block">

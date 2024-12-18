@@ -1,5 +1,5 @@
 <?php 
-require("./../header.php");
+require("./header.php");
 ?>
 
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -281,6 +281,7 @@ require("./../header.php");
                 print, and publishing industries for previewing layouts and visual
                 mockups
               </p>
+              
             </div>
           </div>
   
