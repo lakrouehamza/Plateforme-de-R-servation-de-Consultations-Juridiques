@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"> </script>
-</head>
-<body>
-
-
-<header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
-    <div class="flex-1 flex justify-between items-center">
-        <a href="#" class="text-xl">Company</a>
-    </div>
-
-    <label for="menu-toggle" class="pointer-cursor md:hidden block">
-      <svg class="fill-current text-gray-900"
-        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-        <title>menu</title>
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-      </svg>
-    </label>
-    <input class="hidden" type="checkbox" id="menu-toggle" />
-
-    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
-        <nav>
-            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                <li><a class="md:p-4 py-3 px-0 block" href="#">AboutUs</a></li>
-                <li><a class="md:p-4 py-3 px-0 block" href="#">Treatments</a></li>
-                <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
-                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<?php 
+require("./../header.php");
+?>
 
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div
@@ -319,31 +286,6 @@
   
         </div>
       </div>
-<footer>
-<div class="bg-gray-100">
-    <div class="max-w-screen-xl py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
-        <div class="p-5 sm:w-8/12">
-            <h3 class="font-bold text-3xl text-indigo-600 mb-4">Componentity</h3>
-
-            <div class="flex text-gray-500 uppercase text-sm">
-                <a href="#" class="mr-2 hover:text-indigo-600">Home</a>
-                <a href="#" class="mr-2 hover:text-indigo-600">About Us</a>
-                <a href="#" class="mr-2 hover:text-indigo-600">Contact Us</a>
-                <a href="#" class="mr-2 hover:text-indigo-600">Support Us</a>
-            </div>
-
-        </div>
-        <div class="p-5 sm:w-4/12">
-            <h3 class="font-medium text-lg text-indigo-600 mb-4">Subscribe to our Newsletter</h3>
-            <form class="mt-4">
-                <input class="border rounded w-full px-4 py-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="username@email.com">
-            </form>
-        </div>
-    </div>
-    <div class="flex py-5 m-auto text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
-        <p>© Copyright 2020. All Rights Reserved.</p>
-    </div>
-</div>
-</footer>
-    </body>
-</html>
+<?php 
+require("./../footer.php");
+?>
