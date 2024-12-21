@@ -1,3 +1,18 @@
+<?php
+session_start();
+echo $_SESSION['role'];
+
+if(!isset($_SESSION['role'])){
+    header("location: ./../login.php");
+    // exit;
+}elseif($_SESSION['role']==1){
+    header("location: ./../avocate/home.php");
+    exit;
+}elseif($_SESSION['role']==2){
+    // header("location: client/home.php");
+    // exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
